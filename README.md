@@ -43,10 +43,12 @@ We use four different model
 > 4.Support Vector Machine
 
 
-            Logistic Regression         	KNN	          Random Forest Classifier          	Support Vector Machine
+----
+
+models            Logistic Regression                  KNN	             Random Forest Classifier                   Support Vector Machine
 accuracy	     0.811688	                0.75974	                0.772727	                          0.720779
 
-
+---
 
 for read in detail  read this [diabetesprediction.ipynb](https://github.com/habiburrahmankhan/Diabetes-Prediction-Patient/blob/main/diabetesprediction.ipynb)
 
