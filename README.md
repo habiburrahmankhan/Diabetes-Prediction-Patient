@@ -45,18 +45,28 @@ We use four different model
 
 ----
 
-models    ---    Logistic Regression         ---         KNN	          ---   Random Forest Classifier       ---            Support Vector Machine
+models   and their individual accuracy 
+
+> Logistic Regression   (0.811688 )  
+
+> KNN	   ( 0.75974	)    
+
+> Random Forest Classifier   (   0.772727	 ) 
+
+
+> Support Vector Machine   (    0.720779 )
+
+  
+
 ---
 
-accuracy	   ---    0.811688	    ---                0.75974	         ---       0.772727	                   ---            0.720779
 
----
 
-for read in detail  read this [diabetesprediction.ipynb](https://github.com/habiburrahmankhan/Diabetes-Prediction-Patient/blob/main/diabetesprediction.ipynb)
+#### for read in detail  read this [diabetesprediction.ipynb](https://github.com/habiburrahmankhan/Diabetes-Prediction-Patient/blob/main/diabetesprediction.ipynb)
 
 
 
 
 ## Accuracy of final model: 83% 
 
-#						 thank you for reading 
+##  ---* thank you for reading *--- 
