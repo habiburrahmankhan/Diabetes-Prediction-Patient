@@ -45,8 +45,10 @@ We use four different model
 
 ----
 
-models            Logistic Regression                  KNN	             Random Forest Classifier                   Support Vector Machine
-accuracy	     0.811688	                0.75974	                0.772727	                          0.720779
+models    ---    Logistic Regression         ---         KNN	          ---   Random Forest Classifier       ---            Support Vector Machine
+---
+
+accuracy	   ---    0.811688	    ---                0.75974	         ---       0.772727	                   ---            0.720779
 
 ---
 
