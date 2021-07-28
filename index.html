@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Diabeties Prediction   </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+.imggg{
+  width: 300px; 
+  height : 300px;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="templates/about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About me </a>
+
+    <a href="templates/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Project FrontEnd </a>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="templates/about.html" class="w3-bar-item w3-button w3-padding-large">About me</a>
+    <a href="templates/index.html" class="w3-bar-item w3-button w3-padding-large">Project Front End</a>
+
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo"> Diabeties Prediction </h1>
+  <p class="w3-xlarge"> <h4>About the Dataset </h4>
+The datasets consist of several medical predictor (independent) variables and one target (dependent) variable,Outcome. Independent variables include the number of pregnancies the patient has had, their BMI, insulin level, age,and so on. <br>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> <a href="templates/index.html">Front end </a>  </button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Proposed Approach </h1>
+      <h5 class="w3-padding-32"> Columns </h5>
+<ul>Pregnancies: Number of times pregnant </ul>
+<ul>Glucose : Plasma glucose concentration a 2 hours in an oral glucose tolerance test</ul>
+<ul>BloodPressure : Diastolic blood pressure (mm Hg)</ul>
+<ul>SkinThickness : Triceps skin fold thickness (mm)</ul>
+<ul>Insulin : 2-Hour serum insulin (mu U/ml)</ul>
+<ul>BMI : Body mass index (weight in kg/(height in m)^2)</ul>
+<ul>DiabetesPedigreeFunction : It provided some data on diabetes mellitus history in relatives and the genetic relationship of those relatives to the patient.</ul>
+<ul>Age : Age (years)</ul>
+<ul>Outcome : Class variable (0 or 1) 268 of 768 are 1, the others are 0</ul>
+        <br>
+<h2>Task:</h2>
+<ul>To build a machine learning model to accurately predict whether or not the patients in the dataset have diabetes or not?</ul>
+   <h3 >Model for Training :- </h3>
+
+<ul> 1.Logistic Regression</ul>
+<ul>2.KNN </ul>
+<ul>3.Random Forest Classifier</ul>
+<ul>4.Support Vector Machine </ul>
+
+
+
+      <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"> <a href="diabetes.html">Click for more </a>  </button>
+    </div>
+    
+    <div class="w3-third w3-center">
+      
+    </div>
+  </div>
+</div>
+
+ <p>Powered by <a href="https://hrkhan.in" target="_blank">hrkhan</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
